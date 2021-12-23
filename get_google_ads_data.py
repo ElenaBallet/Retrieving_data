@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import sys
+
 import pandas as pd
 import os
 import time
@@ -121,7 +121,7 @@ def unload_report_gads(client, customer_id, start, end):
 
       search_request.query = query_conversion
       stream_conversion = ga_service.search_stream(search_request)
-      print(type(stream_conversion))
+
       for batch in stream_conversion:
         for row in batch.results:
 
@@ -144,11 +144,13 @@ def unload_report_gads(client, customer_id, start, end):
       df = df[col]
 
       now_date = time.strftime("%d-%m-%Y_%H:%M")
+      file_csv = 'Report_google_ads/' + str(now_date) + '.csv'
 
       if os.path.isfile(str(now_date) + '.csv') not in os.listdir('Report_google_ads'):
-        pd.DataFrame.to_csv(df, 'Report_google_ads/' + str(now_date) + '.csv')
+        pd.DataFrame.to_csv(df, file_csv)
+        print(f'\nОтчет успешно выгружен в папку {file_csv}')
       else:
-        print('Ошибка при создании файла!')
+        print('\nОшибка при создании файла!')
       
   except:
-    print("Отчет с Google Ads не выгружен! Попробуйте еще раз!")
+    print("\nОтчет с Google Ads не выгружен! Попробуйте еще раз!")

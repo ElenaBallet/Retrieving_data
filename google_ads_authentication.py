@@ -1,5 +1,5 @@
 #!/usr/local/bin/python3
-import sys
+
 from google.ads.googleads.client import GoogleAdsClient
  
 def google_ads_authentication(cred_dict):
