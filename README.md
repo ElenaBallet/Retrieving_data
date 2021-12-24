@@ -46,7 +46,7 @@ date,campaign,adgroup,ad,country,spend,impressions,clicks,purchases,link_clicks,
     ```
     Подразумевается, что Python  с базовыми библиотеками установлен.
 2. Выполнение первой части задания:
-   Для получения отчета с Google Ads запустите файл [google_ads_main] (https://github.com/ElenaBallet/Retrieving_data/blob/master/google_ads_main.py) командой:
+   Для получения отчета с Google Ads запустите файл [google_ads_main](https://github.com/ElenaBallet/Retrieving_data/blob/master/google_ads_main.py) командой:
     ```python
     python3 google_ads_main.py 15-12-2021 16-12-2021
     ```
@@ -56,7 +56,7 @@ date,campaign,adgroup,ad,country,spend,impressions,clicks,purchases,link_clicks,
 
 
 3. Выполнение первой части задания:
-   Для объединения данных из CSV файлов, выполните команду:
+   Для объединения данных из CSV файлов запустите файл [report_main](https://github.com/ElenaBallet/Retrieving_data/blob/master/report_main.py) командой:
     ```python
     python3 report_main.py Report_google_ads/22-12-2021_04:28.csv Report_google_ads/22-12-2021_04:31.csv
     ```   
