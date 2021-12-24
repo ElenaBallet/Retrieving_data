@@ -64,7 +64,7 @@ date,campaign,adgroup,ad,country,spend,impressions,clicks,purchases,link_clicks,
 
     ![report_main](https://user-images.githubusercontent.com/83959445/147284671-eca7a30d-536d-4aa2-a166-104948560147.png)
 
-> В процессе написания кода основаня задача сводилась к правильному постоению Google Ads Query и преобразование классов [Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v8/overview). Например, `class 'google.api_core.grpc_helpers._StreamingResponseIterator' `возвращает данные в таком виде:
+> В процессе написания кода основаня задача сводилась к правильному построению Google Ads Query и преобразование классов [Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v8/overview). Например, `class 'google.api_core.grpc_helpers._StreamingResponseIterator' `возвращает данные в таком виде:
 > ```
 >    ,campaign_id,ad_group_name,responsive_search_ad_headlines
 >    0,155310101212,Группа объявлений 1,"[text: ""learn python""
