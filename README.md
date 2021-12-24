@@ -92,6 +92,6 @@ date,campaign,adgroup,ad,country,spend,impressions,clicks,purchases,link_clicks,
 
 ![Report_google](https://user-images.githubusercontent.com/83959445/147285442-89754396-c307-4e18-b737-fed32062e9db.png)
 
-Результат выполнения кода для объединения данных из CSV файлов представлен в папке [Consolidated_reportss](https://github.com/ElenaBallet/Retrieving_data/tree/master/Consolidated_reports) и имеет вид:
+Результат выполнения кода для объединения данных из CSV файлов представлен в папке [Consolidated_reports](https://github.com/ElenaBallet/Retrieving_data/tree/master/Consolidated_reports) и имеет вид:
 
 ![Consolidated_reports](https://user-images.githubusercontent.com/83959445/147285712-ec45b2ce-eca1-486c-91a4-b1d4d52876da.png)
