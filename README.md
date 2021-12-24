@@ -55,7 +55,7 @@ date,campaign,adgroup,ad,country,spend,impressions,clicks,purchases,link_clicks,
     ![google_ads_main](https://user-images.githubusercontent.com/83959445/147284515-20ffffed-d962-4693-b195-b91a72447502.png)
 
 
-3. Выполнение первой части задания:
+3. Выполнение второй части задания:
    Для объединения данных из CSV файлов запустите файл [report_main](https://github.com/ElenaBallet/Retrieving_data/blob/master/report_main.py) командой:
     ```python
     python3 report_main.py Report_google_ads/22-12-2021_04:28.csv Report_google_ads/22-12-2021_04:31.csv
